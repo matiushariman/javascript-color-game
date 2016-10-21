@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #bdc3c7;
+}
+
+#header {
+    text-align: center;
+    font-family: 'Amaranth';
+    padding: 2.5% 0;
+    background: #ecf0f1;
+}
+
+#header span {
+    border: 2px solid black;
+    padding: 0.5%;
+}
+
+#container {
+    padding: 2.5%;
+}
+
+.color-box {
+    height: 200px;
+    width: 30%;
+    border: 2px solid black;
+}
