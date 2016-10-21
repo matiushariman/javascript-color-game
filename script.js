@@ -1,5 +1,6 @@
-var MAX = 6;
+var MAX = 6;    // max number of colors generated
 
+// function to generate the colors
 function generateColors(){
     var temp = [];
     var color;
@@ -17,4 +18,5 @@ function play(){
     var colors = generateColors();
 }
 
+// start the game
 play();

@@ -1,18 +1,23 @@
+/*This is a color object class*/
+
+// Color constructor
 function Color(){
-    this.generateColors();
+    this.generateColor();
 }
 
-Color.prototype.generateColors = function(){
+// function to generate color
+Color.prototype.generateColor = function(){
     function generateColorValue() {
         return Math.floor(Math.random() * 255);
     }
-    var r = generateColorValue();
-    var g = generateColorValue();
-    var b = generateColorValue();
+    var r = generateColorValue();   // get red value
+    var g = generateColorValue();   // get green value
+    var b = generateColorValue();   // get blue value
     
     this.color = "rgb("+r+","+g+","+b+")";
 };
 
+// function to fetch the color
 Color.prototype.getColor = function(){
     return this.color;
 };
