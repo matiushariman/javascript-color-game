@@ -21,11 +21,21 @@ body {
 }
 
 #container {
-    padding: 2.5%;
+    width: 100%;
 }
 
 .color-box {
+    float: left;
     height: 200px;
     width: 30%;
     border: 2px solid black;
+    margin: 1.66%;
+    
+    transition-duration:0.3s; 
+	transition-property:transform; 
+	transition-timing-function:ease-out;
+}
+
+.color-box:hover {
+    transform: translateY(-5%);
 }

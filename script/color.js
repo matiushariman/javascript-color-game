@@ -14,7 +14,7 @@ Color.prototype.generateColor = function(){
     var g = generateColorValue();   // get green value
     var b = generateColorValue();   // get blue value
     
-    this.color = "rgb("+r+","+g+","+b+")";
+    this.color = "rgb("+r+", "+g+", "+b+")";
 };
 
 // function to fetch the color
